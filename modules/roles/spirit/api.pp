@@ -1,4 +1,4 @@
-class role::spirit::api {
+class roles::spirit::api {
     file { '/tmp/role':
         ensure  => present,
         owner   => 'root',
