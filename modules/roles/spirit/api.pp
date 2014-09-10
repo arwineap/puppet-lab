@@ -1,4 +1,4 @@
-class { 'role::spirit::api':
+class role::spirit::api {
     file { '/tmp/role':
         owner => 'root',
         group => 'root',
