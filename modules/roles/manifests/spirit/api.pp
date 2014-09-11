@@ -6,4 +6,9 @@ class roles::spirit::api {
         mode    => '0755',
         content => 'role::spirit::api',
     }
+
+# class { 'apache2':
+#     conf => 'spirit-api-httpd.conf',
+#     vhost => 'api.spirit.com.conf',
+# }
 }
